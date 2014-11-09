@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-9">
+  <ul class="deevaTags">
+    <li ng-repeat="arg in args track by $index">
+      <a class="btn btn-deeva-args btn-sm">
+        <span ng-bind-html="arg | deevaSanitize"></span><span class="glyphicon glyphicon-remove"
+                                                              ng-click="remove($index)"></span>
+      </a>
+    </li>
+    <li><input type="text" placeholder="Input argument(s) here" autocomplete="off"></li>
+  </ul>
+  </div>
+  <div class="col-md-3 enable-assertions">
+    <button type="button" class="btn btn-default btn-deeva-args">
+    <span class="glyphicon"
+          ng-class="{'glyphicon-ok': assertionsEnabled, enabled: assertionsEnabled,
+                     'glyphicon-remove': !assertionsEnabled, disabled: !assertionsEnabled}"></span>
+    <label ng-click="assertionsEnabled = !assertionsEnabled">
+      Assertions 
+    </label>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,155 @@
+
+.stackFrameVarTable{
+ height: 30px;
+ font-weight: bold;
+ font-size: 15px;
+ background-color: rgb(255, 184, 0);
+ text-align: center;
+}
+
+.stackFrameVarTable tr{
+	border-top: 1px solid #f5f5f5;
+}
+
+.stackFrameVar, .stackFrameValue{
+  min-width: 50px;
+  height: 30px;
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.stackFrame{
+	margin-top: 13px;
+}
+
+#stack_td{
+  margin-left: 20%;
+}
+
+#stackHeader, #heapHeader{
+ font-weight: bold;
+ font-size: 25px;
+ color: rgb(255, 184, 0);
+ margin-left: 10px;
+}
+
+.stackFrameHeader{
+	font-weight: bold;
+	
+}
+
+.typeLabel {
+	text-decoration: underline;
+	background: rgb(224, 224, 224);
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+	width: 91px;
+}
+
+.indice td, .value td {
+  text-align: center;
+}
+
+#value td {
+  height: 30px;
+}
+
+table.ARRAY{
+  background-color: #B5FF93;
+}
+
+table.STRING{
+  background-color: #FFF4BA;
+}
+
+table.OBJECT{
+  background-color: rgb(177, 243, 252);
+}
+
+svg.connectLine path{
+  stroke: black;
+  stroke-width: 1;
+}
+
+.stackPoint svg circle{
+  fill: black;
+}
+
+#heapBody {
+  margin-top: 12px;
+}
+
+.heapRow {
+	min-width: 80px;
+    margin: 5px;
+}
+
+.heapRow table {
+    border-collapse: collapse;
+}
+
+.STRING td {
+	min-width: 20px;
+	font-weight: bold;
+}
+
+.STRING .value td {
+	font-size: 20px;
+}
+
+.STRING .indice td {
+	font-size: 10px;
+}
+
+.ARRAY td {
+	width: 30px;
+	font-weight: bold;
+}
+
+.ARRAY .value td {
+	front-size: 20px;
+}
+
+.ARRAY .indice td {
+	font-size: 10px;
+}
+
+.OBJECT tr {
+	min-width: 30px;
+}
+
+.OBJECT td {
+	front-size: 20px;
+	text-align: center;
+	min-width: 60px;
+    font-weight: bold;
+}
+
+.pointer{
+	cursor: pointer;
+	display: block;
+	height: 100%;
+}
+
+.panel{
+    display: inline-block;
+    min-width: 20px;
+}
+
+.panel-heading{
+	height: 25px;
+	text-align: center;
+	line-height: 7px;
+}
+
+#visual {
+  overflow:scroll;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(175, 164, 164);
+}
+
+#heap_td {
+	margin-left: 40px;
+}

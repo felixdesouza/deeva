@@ -1,0 +1,164 @@
+
+/* deeva css stylesheet */
+
+.bottom {
+  width: 100%;
+  position: absolute;
+  top: 240px;
+  bottom: 25px;
+}
+
+#code {
+  position: relative;
+  width: 50%;
+}
+
+#startBtn {
+	width: 38px;
+	height: 38px;
+	background: rgb(255, 184, 0);
+	border-radius: 7px;
+	box-shadow: 5px 5px 0px 0px #ccc;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 2.5;
+	color: black;
+	font-size: 15px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#console {
+  color: rgb(255, 184, 0);
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+#arg-btn {
+  color: orange;
+  font-size: 20px;
+}
+
+#buttons_container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 56px;
+  width: 290px;
+}
+
+.myButtons[disabled="disabled"] {
+  opacity: 0.6;
+}
+
+.myButtons {
+  width: 50px;
+  height: 50px;
+  background: rgb(255, 184, 0);
+  border-radius: 7px;
+  box-shadow: 5px 5px 0px 0px #ccc;
+  transition: opacity 0.5s ease-in-out;
+  float: left;
+  margin-right: 8px;
+  z-index:0;
+  position:relative;
+  cursor: pointer;
+}
+
+.myButtons[disabled="disabled"]:hover {
+  box-shadow: 5px 5px 0px 0px #ccc;
+}
+
+.myButtons:hover {
+  box-shadow: 3px 3px 0px 0px #ccc;
+}
+
+.myButtons:focus {
+  outline: none;
+}
+
+#state {
+  text-align: center;
+  font-size: 25px;
+}
+
+#heap_stack {
+}
+
+.myTabs {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#runBtn {
+  line-height: 52px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#innerRunBtn {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 24px solid green;
+  position: absolute;
+  top: 20%;
+  left: 28%;
+  cursor: pointer;
+}
+
+#innerStopBtn {
+  position: absolute;
+  background-color: red;
+  height: 50%;
+  width: 50%;
+  border-radius: 4px;
+  top: 26%;
+  left: 25%;
+  cursor: pointer;
+}
+
+
+
+#openFile {
+  opacity:0.6;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  border-radius: 4px 4px 0 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  transition: opacity 0.1s linear;
+  float: left;
+  margin-right: 8px;
+  z-index:0;
+  position:relative;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+#openFile:hover {
+  opacity: 1;
+}
+
+#tab_bar {
+  position:relative;
+}
+
+#openFileBtn {
+  bottom: -1px;
+  position: absolute;
+  height: 100%;
+  width: 30px;
+}
+
+#codeInputPane {
+  height: 100%;
+}
+
+a:hover {
+    cursor: pointer;
+}
